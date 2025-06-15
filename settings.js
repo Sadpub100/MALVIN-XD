@@ -37,7 +37,7 @@ LINK_WHITELIST: "youtube.com,github.com",
        WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
-       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
       ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -59,7 +59,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "𝐂𝐡𝐞𝐢𝐤𝐡 𝐦𝐝",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -74,7 +74,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 OWNER_NAME: process.env.OWNER_NAME || "𝐎𝐫𝐞𝐰𝐚 𝐂𝐡𝐞𝐢𝐤𝐡",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "Hi, I'm Sad.your assistant bot *",
+              DESCRIPTION: process.env.DESCRIPTION || "*Hi, I'm Sad.your assistant bot *",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
